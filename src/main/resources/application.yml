@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-advance-jpa
+  datasource:
+    url: jdbc:postgresql://localhost:5432/advance-jpa
+    username: postgres
+    password: Prerna@12345
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  main:
+    banner-mode: off
+logging:
+  level:
+    root: off
