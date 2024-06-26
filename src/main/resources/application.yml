@@ -13,3 +13,5 @@ spring:
 logging:
   level:
     root: off
+server:
+  port: 8081
